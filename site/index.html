@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Asap&family=Nunito&family=Yellowtail&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Tornos e Fresas</title>
+</head>
+<body>
+    <nav>
+        <a href="#">Tornos e Fresas</a>
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#fotos">Catalógo</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+    <header id="topo">
+        <div class="hamburguer"></div>
+        <h1>O que fazemos</h1>
+        <p>Somos uma empresa que busca trazer a vivencia de quem trabalha na mecânica afim de trazer 
+            customizações paraseu ambiente de trabalho e mostrar que nos tempos atuais os tornos 
+            e as fresas pode ser mais tecnólogico para as grandes empresas de usinagem</p>
+        <a href="#serviços" class="botao">Ver mais</a>
+    </header>
+    <section id="sobre">
+    <h2>Sobre nós</h2>
+    <p>Somos uma empresa que busca trazer a vivencia de quem trabalha na mecânica afim de trazer 
+        customizações paraseu ambiente de trabalho e mostrar que nos tempos atuais os tornos 
+        e as fresas pode ser mais tecnólogico para as grandes empresas de usinagem</p>
+    <a href="#contato" class="botao">Contrate agora</a>
+</section>
+    <section id="#serviços">
+   
+    </section>
+
+    <section id="fotos">
+        <h2>Catalógo</h2>
+        <img src="img/ceu.jpg" alt="ceu">
+        <img src="img/grama.jpg" alt="grama">
+        <img src="img/montanha.jpg" alt="montanha">
+        <img src="img/mar.jpg" alt="mar">
+        <img src="img/arvores.jpg" alt="arvores">
+        <img src="img/ponte.jpg" alt="ponte">
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Em casos de interesse nós produtos do catalógo 
+            entre em contato para mais inforamções
+        </p>
+        <div>
+            <img src="img/mail.png" alt="Telefone">
+            <p><a href="malito:@lhbs202@gmail.com">malito:@lhbs202@gmail.com</a></p>
+        </div>
+        <div>
+            <img src="img/tel.png" alt="Telefone">
+            <p><a href="(xx)xxxxx-xxxx">(xx)xxxxx-xxxx</a></p>
+        </div>
+    </section>
+    <section class="sessao-orcamento" id="orcamento">
+        <div class="orcamento-wrapper">
+          <h1>Faça um orçamento</h1>
+          <form>
+           
+            <select name="Tornos">
+            <option value="volvo">Torno1</option>
+            <option value="saab">Torno2</option>
+            <option value="fiat">Torno3</option>
+            <option value="audi">Torno4</option>
+            </select> 
+            <br>
+            <label for="qtde">Qtde de Máquinas</label>
+            <input type="number" min="1" name="qtde" id="qtde">
+            <label for="js">Preciso de uma reforma</label>
+            <input type="checkbox" name="js" id="js">
+            <label>Layout</label>
+            <div class="group-layout">
+              <div>
+                <input type="radio" name="layout" id="layout-sim">
+                <label for="layout-sim">Preciso de um layout</label>
+              </div>
+              <div>
+                <input type="radio" name="layout" id="layout-nao">
+                <label for="layout-nao">Já tenho um layout</label>
+              </div>
+            </div>
+            <label for="prazo">Prazo</label>
+            <input type="range" name="prazo" id="prazo" min="1" max="10">
+            <label id="preco">R$ 0,00</label>
+            <button class="btn btn-orcamento" type="submit">Enviar</button>
+          </form>
+        </div>
+      </section>
+    <footer>
+        <a href="#topo">Voltar</a>
+        <p>Copyright © 2021, Luiz Silva - Todos os direitos reservado</p>
+    </footer>
+<script src="script.js"></script>
+</html>
